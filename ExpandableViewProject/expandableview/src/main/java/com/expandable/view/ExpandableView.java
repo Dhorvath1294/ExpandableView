@@ -250,14 +250,17 @@ public class ExpandableView extends RelativeLayout {
 
             @Override
             public void onAnimationStart(Animator animator) {
+				System.out.println("valami");
             }
 
             @Override
             public void onAnimationCancel(Animator animator) {
+				System.out.println("valami");
             }
 
             @Override
             public void onAnimationRepeat(Animator animator) {
+				System.out.println("valami");
             }
         });
 
