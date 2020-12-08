@@ -255,12 +255,12 @@ public class ExpandableView extends RelativeLayout {
 
             @Override
             public void onAnimationCancel(Animator animator) {
-				System.out.println("valami");
+				System.out.println("más");
             }
 
             @Override
             public void onAnimationRepeat(Animator animator) {
-				System.out.println("valami");
+				System.out.println("ezmégmásabb");
             }
         });
 
