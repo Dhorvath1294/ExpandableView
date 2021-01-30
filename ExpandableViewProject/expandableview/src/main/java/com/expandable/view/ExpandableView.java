@@ -50,16 +50,6 @@ public class ExpandableView extends RelativeLayout {
         init();
     }
 
-    public ExpandableView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        init();
-    }
-
-    public ExpandableView(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-        init();
-    }
-
     private void init() {
         inflate(getContext(), R.layout.expandable_view, this);
 
