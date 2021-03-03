@@ -250,7 +250,6 @@ public class ExpandableView extends RelativeLayout {
 
             @Override
             public void onAnimationRepeat(Animator animator) {
-				System.out.println("ezmégmásabb");
             }
         });
 
